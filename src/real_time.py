@@ -1,6 +1,6 @@
 import cv2
 
-cascade_path = 'haarcascade_frontalface_default.xml'
+cascade_path = '../haarcascade_frontalface_default.xml'
 
 def main():
     clf = cv2.CascadeClassifier(cascade_path)

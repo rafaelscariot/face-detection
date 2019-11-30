@@ -1,7 +1,7 @@
 import cv2
 
-image_path = 'images/pic.jpeg'
-cascade_path = 'haarcascade_frontalface_default.xml'
+image_path = '../images/pic.jpeg'
+cascade_path = '../haarcascade_frontalface_default.xml'
 
 def main():
     clf = cv2.CascadeClassifier(cascade_path)
