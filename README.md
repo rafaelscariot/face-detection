@@ -4,5 +4,6 @@ Requirements:
  - Python with the modules OpenCV and Dlib.
 
 The file real_time.py can be executed in a camera.
+The file static.py requires an image.
 
 To execute: python file.py
