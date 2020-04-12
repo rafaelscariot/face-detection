@@ -1,3 +1,4 @@
-It's necessary OpenCV and Python to execute the codes.
+**In this repository there are algorithms for facial detection using two different methods: haarcascade and with the dlib library.**
 
-The file real_time.py can be executed in a webcam or camera.
+Requirements:
+ - Python with the modules Dlib and OpenCV;
