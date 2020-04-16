@@ -1,6 +1,7 @@
 import cv2
 import dlib
 
+
 def main():
     image_path = '../../images/person.jpeg'
     detector = dlib.get_frontal_face_detector()
@@ -23,5 +24,7 @@ def main():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+    
 if __name__ == '__main__':
     main().run()
+    
