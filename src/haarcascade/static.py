@@ -1,6 +1,6 @@
 import cv2
 
-image_path = '../../images/person.jpeg'
+image_path = '../../images/person.jpg'
 cascade_path = '../../resources/haarcascade_frontalface_default.xml'
 
 def main():

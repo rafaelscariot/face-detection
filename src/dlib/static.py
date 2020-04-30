@@ -3,7 +3,7 @@ import dlib
 
 
 def main():
-    image_path = '../../images/person.jpeg'
+    image_path = '../../images/person.jpg'
     detector = dlib.get_frontal_face_detector()
 
     img = cv2.imread(image_path)
